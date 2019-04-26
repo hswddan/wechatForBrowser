@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## 项目简介
 
-You can use the [editor on GitHub](https://github.com/hswddan/wechatForBrowser/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+微信打开提示使用浏览器打开，自动识别判断环境，只有微信内打开才自动弹窗，普通浏览器打开可直接看到页面内容。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 关键技术点
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+js判断浏览器
 
 ```markdown
-Syntax highlighted code block
+var is_weixin = (function(){return navigator.userAgent.toLowerCase().indexOf('micromessenger') !== -1})();
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+具体案例 [test](https://hswddan.github.io/wechatForBrowser/test.html).
 
-### Jekyll Themes
+### 项目地址
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hswddan/wechatForBrowser/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+GitHub地址 [wechatForBrowser](https://github.com/hswddan/wechatForBrowser)
 
-### Support or Contact
+### 我的GitHub项目
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+欢迎关注我的开源项目 [documentation](https://github.com/hswddan) 
