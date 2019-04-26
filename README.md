@@ -12,7 +12,7 @@ var is_weixin = (function(){return navigator.userAgent.toLowerCase().indexOf('mi
 
 ```
 
-具体案例 [test](https://hswddan.github.io/wechatForBrowser/test.html).
+具体案例 [test](https://hswddan.github.io/wechatForBrowser/test.html)
 
 ### 项目地址
 
@@ -20,4 +20,4 @@ GitHub地址 [wechatForBrowser](https://github.com/hswddan/wechatForBrowser)
 
 ### 我的GitHub项目
 
-欢迎关注我的开源项目 [documentation](https://github.com/hswddan) 
+欢迎关注我的开源项目 [hswddan](https://github.com/hswddan) 
