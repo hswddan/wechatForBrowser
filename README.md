@@ -12,7 +12,9 @@ var is_weixin = (function(){return navigator.userAgent.toLowerCase().indexOf('mi
 
 ```
 
-具体案例 [test](https://hswddan.github.io/wechatForBrowser/test.html)
+具体案例 [test.html](https://hswddan.github.io/wechatForBrowser/test.html)
+
+案例2 [2.html](https://hswddan.github.io/wechatForBrowser/2.html)
 
 ### 项目地址
 
