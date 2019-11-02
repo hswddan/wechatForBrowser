@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello world!</title>
+    <title>请点击右上角,浏览器打开...</title>
     <meta name="robots" content="noindex">
     <link rel="stylesheet" href="https://cdn.bootcss.com/zui/1.9.1/css/zui.min.css">
 </head>
-<body style="padding-top: 120px;">
+<body style="padding-top: 150px;">
 <div class="container">
     <div class="row">
+        <div class="col-md-12 text-center">
+            <img src="xl-game.png">
+        </div>
         <div class="col-md-12 text-center">
             <a href="javascript:;" class="btn btn-success btn-lg download">点击下载 <i class="icon icon-download-alt icon-2x"></i></a>
         </div>
@@ -18,16 +21,7 @@
 </div>
 <div class="modal fade" id="myModal">
     <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="alert with-icon">
-                <div class="content" style="padding-top: 50px;padding-bottom: 50px;">
-                    <h4><i class="icon icon-spin icon-spinner-snake icon-2x"></i></h4>
-                    <hr>
-                    <p>请点击右上角选择在浏览器中打开此页面</p>
-                </div>
-                <i class="icon-external-link"></i>
-            </div>
-        </div>
+        <img src="right.png" class="img-responsive">
     </div>
 </div>
 <script src="https://cdn.bootcss.com/zui/1.9.1/lib/jquery/jquery.js"></script>
@@ -37,7 +31,8 @@
     if(is_weixin){
         $('#myModal').modal({
             backdrop : 'static',
-            position : 100,
+            keyboard :false,
+            position :0,
             show     : true
         });
     } else {
