@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>请点击右上角,浏览器打开...</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/zui/1.9.1/css/zui.min.css">
+</head>
+<body style="padding-top: 120px;">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <a href="javascript:;" class="btn btn-success btn-lg download">点击下载 <i class="icon icon-download-alt icon-2x"></i></a>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog" style="border-radius: 0;">
+        <img src="right-top.png" class="img-responsive">
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/zui/1.9.1/lib/jquery/jquery.js"></script>
+<script src="https://cdn.bootcss.com/zui/1.9.1/js/zui.min.js"></script>
+<script>
+    var is_weixin = (function(){return navigator.userAgent.toLowerCase().indexOf('micromessenger') !== -1})();
+    if(is_weixin){
+        $('#myModal').modal({
+            backdrop : 'static',
+            keyboard :false,
+            position :0,
+            show     : true
+        });
+    } else {
+        $('.download').attr('href','https://ch73ux2t.xltm2dl.vip/xingyunzhixing/html/Hall.html');
+    }
+</script>
+</body>
+</html>
