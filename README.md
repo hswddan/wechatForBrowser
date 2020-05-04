@@ -16,6 +16,8 @@ var is_weixin = (function(){return navigator.userAgent.toLowerCase().indexOf('mi
 
 案例2 [2.html](https://hswddan.github.io/wechatForBrowser/2.html)
 
+案例3 [202005.html](https://hswddan.github.io/wechatForBrowser/202005.html)
+
 ### 项目地址
 
 GitHub地址 [wechatForBrowser](https://github.com/hswddan/wechatForBrowser)
